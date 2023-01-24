@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=PT+Sans&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Cards</title>
+    <link rel="stylesheet" href="../account/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="../assets/logo.svg" alt="Logomarca do aplicativo Habits" />
+      <div class="title">Learning Cards</div>
+      <button class="createaccount">
+        <img src="../assets/plus.svg" alt="ícone sinal de mais roxo" />
+        <div>Create account</div>
+      </button>
+    </header>
+
+    <div class="test">
+      <div class="container">
+        <a class="links" id="paralogin"></a>
+
+        <div class="content">
+          <!--FORMULÁRIO DE LOGIN-->
+          <div id="login">
+            <div id="content_login">
+              <form method="post" action="">
+                <h1>Login</h1>
+                <div class="test">
+
+                
+                  <p>
+                    <label for="nome_login">Seu nome</label>
+                    <input
+                      id="nome_login"
+                      name="nome_login"
+                      required="required"
+                      type="text"
+                      placeholder="ex. contato@learningcards.com"
+                    />
+                  </p>
+
+                  <p>
+                    <label for="email_login">Seu e-mail</label>
+                    <input
+                      id="email_login"
+                      name="email_login"
+                      required="required"
+                      type="password"
+                      placeholder="ex. senha"
+                    />
+                  </p>
+                </div>
+                <p>
+                  <input
+                    type="checkbox"
+                    name="manterlogado"
+                    id="manterlogado"
+                    value=""
+                  />
+                  <label for="manterlogado">Manter-me logado</label>
+                </p>
+
+                <p>
+                  <input type="submit" value="Logar" />
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
