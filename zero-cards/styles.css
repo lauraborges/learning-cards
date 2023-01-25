@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .intro div {
+  
+      
+  width: 252px;
+  height: 106px;
+  left: 443px;
+  top: 447px;
+  
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  
+  color: #FFFFFF;
+  }
+  
+  body {
+    background-color: #09090a;
+    color: white;
+    height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 48px;
+    position: fixed;
+    width: 100%;
+  
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 65px;
+  
+  color: #FFFFFF;
+    
+  }
+  
+  p1 {
+      
+      position: absolute;
+      width: 444px;
+      height: 268px;
+      left: 337px;
+      top: 300px;
+      
+      font-family: 'PT Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 83px;
+      
+      color: #FFFFFF;
+  }
+  
+  p2 {
+      position: absolute;
+  width: 344px;
+  height: 363px;
+  left: 900px;
+  top: 260px;
+  
+  
+  }
+  
+  button {
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid #AA00FF;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+  }
+  
+  #form-habits {
+    display: flex;
+  
+    padding: 182px 48px 48px;
+    width: fit-content;
+  }
+  
+  .habits {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+  
+    gap: 24px;
+  }
+  
+  .habit {
+    width: 64px;
+    height: 64px;
+  
+    font-size: 32px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .days {
+    display: flex;
+    gap: 48px;
+    margin-left: 32px;
+  }
+  
+  .day {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .day div {
+    margin-bottom: 8px;
+    font-family: "Roboto Mono";
+    font-size: 20px;
+    line-height: 125%;
+  
+    color: #a1a1aa;
+  
+    text-align: center;
+  }
+  
+  input {
+    appearance: none;
+    -webkit-appearance: none;
+  
+    width: 64px;
+    height: 64px;
+  
+    border: 2px solid #27272a;
+    border-radius: 8px;
+  
+    background: #18181b;
+  }
+  
+  input:checked {
+    background: #8b5cf6;
+    border: 2px solid #a78bfa;
+  }
+  
+  @media (max-width: 571px){
+    button div {
+      display: none;
+    }
+  }
+  
