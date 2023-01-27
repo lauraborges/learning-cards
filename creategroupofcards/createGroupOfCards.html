@@ -11,25 +11,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning Cards</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../creategroupofcards/style.css" />
   </head>
   <body>
     <header>
       <img src="../assets/logo.svg" alt="Logomarca do aplicativo Habits" />
       <div class="title">Learning Cards</div>
-      <button id="createaccount">
-        <img src="../assets/plus.svg" alt="ícone sinal de mais roxo" />
-        <div>Login</div>
-      </button>
+      <button class="createaccount"></button>
     </header>
-    <p1>
-      <div class="intro">Create cards about what you are learning</div>
-    </p1>
-    <p2>
-      <div class="createcards">
-        <img src="../assets/intrologo.svg" alt="ícone de cartas" />
+    <div class="infos">
+      <div class="input">
+        <h1>Name the new group...</h1>
+        <input
+          id="groupCard"
+          name="group"
+          required="required"
+          type="text"
+          placeholder="ex: colors in English"
+        />
       </div>
-    </p2>
+      <div class="next">
+        <button id="bnext"><img src="../assets/next.svg" alt="next step" /></button>
+      </div>
+    </div>
   </body>
-  <script src="landing.js"></script>
+  <script src="newgroup.js"></script>
 </html>

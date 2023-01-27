@@ -54,7 +54,7 @@ button {
 
 h1 {
   font-size: 48px;
-  color: #ff00aa;
+  color: #aaff00;
   font-family: "PT Sans";
   font-weight: bold;
   text-align: center;
@@ -81,28 +81,30 @@ h1:after {
 
 label {
   font-family: "PT Sans";
-  color: #ff00aa;
+  color: #ffffff;
   text-align: center;
   font-size: 25px;
   margin: 10px 0px;
-  align-items: center;
+  align-items:center;
+  
 }
 
 /*estilo do botão submit */
-input[type="submit"] {
+#Send {
   width: 100% !important;
   cursor: pointer;
-  background: #aa00ff;
-  padding: 8px 5px;
+  background: #aaff00;
   color: #fff;
-  font-size: 20px;
+  text-shadow: #09090a;
+  text-overflow: ellipsis;
+  font-size: 25px;
   margin-top: 30px;
   text-shadow: 0 1px 1px #333;
-
   -webkit-border-radius: 5px;
   border-radius: 5px;
-
   transition: all 0.2s linear;
+  display: grid;
+  -webkit-text-stroke: 0.3px #09090a;
 }
 
 #login {
@@ -125,10 +127,10 @@ input[type="submit"] {
   border-radius: 10px;
 }
 
-#email, #senha {
+#email, #password {
   border-radius: 10px;
   margin: 10px 0px;
-  width: 250px;
+  width: 300px;
   text-align: center;
 }
 

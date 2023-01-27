@@ -4,21 +4,6 @@
   box-sizing: border-box;
 }
 
-.intro div {
-  width: 252px;
-  height: 106px;
-  left: 443px;
-  top: 447px;
-
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 32px;
-
-  color: #ffffff;
-}
-
 body {
   background-color: #09090a;
   color: white;
@@ -43,22 +28,19 @@ header {
   color: #ffffff;
 }
 
-p1 {
-  position: absolute;
-  width: 444px;
-  height: 268px;
-  left: 337px;
-  top: 300px;
+h1 {
+  padding: 20px;
+  position:relative;
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 50px;
   line-height: 83px;
   color: #ffffff;
 }
 
 p2 {
-  position: absolute;
+  position: grid;
   width: 344px;
   height: 363px;
   left: 900px;
@@ -68,32 +50,57 @@ p2 {
 button {
   padding: 16px 24px;
   border-radius: 8px;
-  border: 1px solid #aa00ff;
+  border: 1px solid #09090a;
   background-color: transparent;
-  color: white;
+  color: #09090a;
   display: flex;
   align-items: center;
   gap: 12px;
-  cursor: pointer;
-  font-family: "Inter";
+
+  font-family: "PT Sans";
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
 }
 
-input {
-  appearance: none;
-  -webkit-appearance: none;
-  width: 64px;
-  height: 64px;
-  border: 2px solid #27272a;
-  border-radius: 8px;
-  background: #18181b;
+.input {
+  display: grid;
+  align-content: center;
+  position: absolute;
+  left: 179px;
+  top: 30%;
 }
 
-input:checked {
-  background: #8b5cf6;
-  border: 2px solid #a78bfa;
+#groupCard {
+  color: #ffffff;
+  background: rgba(170, 255, 0, 0.6);
+  border-radius: 25px;
+  text-decoration-color: rgba(170, 255, 0, 0.6);
+  height: 150px;
+  margin-right: 20px ;
+  padding: 20px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 83px;
+}
+
+div.next {
+  position: absolute;
+  width: 553px;
+  height: 300px;
+  top: 40%; 
+  padding: 20px;
+  left: 68%;
 }
 
 @media (max-width: 571px) {
